@@ -1,9 +1,10 @@
 import React from 'react'
+import CarInfo1 from './CarInfo1'
 
 const CarInfo6 = () => {
   return (
     <>
-    <div className="container-fluid">
+    {/* <div className="container-fluid">
         <div style={{textAlign:"center"}} className="row">
             <div className="col-8 ">
                 <h1 style={{textAlign:"center"}}>Highlight of this cars </h1>
@@ -21,7 +22,8 @@ const CarInfo6 = () => {
                 <a style={{textDecorationLine:"none" , color:"white" , backgroundColor:"red" , borderRadius:"14px" , padding:"10px" }} href="/Register">Register</a>
             </div>
         </div>
-    </div>
+    </div> */}
+    <CarInfo1/>
        
     </>
   )
